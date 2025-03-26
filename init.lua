@@ -679,7 +679,15 @@ require('lazy').setup({
         clangd = {},
         gopls = {},
         -- pyright = {},
-        rust_analyzer = {},
+        rust_analyzer = {
+          settings = {
+            ['rust-analyzer'] = {
+              cargo = {
+                features = 'all',
+              },
+            },
+          },
+        },
         cmake = {},
         tinymist = {},
         taplo = {},
