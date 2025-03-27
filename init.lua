@@ -88,6 +88,7 @@ P.S. You can delete this when you're done too. It's your config now! :)
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.expandtab = true
+vim.o.wrap = false
 
 -- Set <space> as the leader key
 -- See `:help mapleader`
